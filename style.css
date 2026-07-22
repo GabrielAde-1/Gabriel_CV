@@ -228,3 +228,5 @@ img {
     gap: 0.8rem;
   }
 }
+
+/* Removed sticky/fixed nav styles to make the nav flow with the page */
