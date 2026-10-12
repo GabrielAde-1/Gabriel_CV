@@ -12,7 +12,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <header class="hero">
@@ -20,9 +19,8 @@
         <a href="#about" class="brand">Gabriel</a>
         <div class="nav-links">
           <a href="#about">About</a>
-          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
-          <a href="#education">Education</a>
+          <a href="#education">Courses</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
         </div>
@@ -64,25 +62,10 @@
           Hello! I'm Gabriel, a dedicated professional with a strong background in delivering high-quality digital solutions. 
           With over 8 years of experience in Python, HTML, and CSS, I have honed my skills in leadership, project management, and problem-solving. 
           My goal is to create globally-recognised websites and user-focused experiences that drive results and foster collaboration across teams. 
-          My favourite food doesn't exist because I love all food equally.
+          My favourite food doesn't exist because I love all food equally. Except for mushrooms. I don't like mushrooms.
           </p>
       </section>
 
-      <section id="experience" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2>Career highlights</h2>
-        </div>
-        <div class="card-grid">
-          <article class="card">
-            <h3>UNCOMPLETED</h3>
-            <p class="meta">2026</p>
-            <p>
-              TODO
-            </p>
-          </article>
-
-      </section>
 <!-- Projects-->
       <section id="projects" class="section">
         <div class="section-heading">
@@ -99,7 +82,12 @@
             <h3>Calculator</h3>
             <p class="meta">Calculator project · 2025</p>
             <p>A lightweight calculator app using Python for the backend and a simple frontend for quick calculations.</p>
-            <p><a href="https://gabriel-calc.vercel.app/" target="_blank" rel="noopener" title="Click me"><img src="calculator.png" alt="Calculator project" width="160" height="auto" /></a></p>
+            <p>
+              <a href="https://gabriel-calc.vercel.app/" target="_blank" rel="noopener" title="Click me" class="image-link">
+                <img src="calculator.png" alt="Calculator project" class="project-image" />
+                <span class="hover-label">Click me</span>
+              </a>
+            </p>
           </article>
         </div>
       </section>
@@ -110,31 +98,50 @@
           <h2>Courses/Certifications</h2>
         </div>
         <div class="card-grid">
-          <article class="card">
-            <h3>CS50x</h3>
-            <p class="meta">Harvard University · 2026</p>
+
+          <article class="card course-card">
+            <h3>Elements of AI</h3>
+            <p class="meta">University of Helsinki · 2026</p>
             <p>
-              Completing Harvard's computer science course,
-              building a strong foundation in problem-solving, programming,
-              and software design through hands-on projects.
+              Completed the Elements of AI program, gaining practical insight into
+              artificial intelligence, machine learning fundamentals, and responsible
+              AI use in real-world contexts.
+            </p>
+            <p>
+              <a href="https://certificates.mooc.fi/validate/x71grdrp7je" target="_blank" rel="noopener" aria-label="Open Elements of AI certificate validation" class="certificate-link">
+                <img src="certificate-elements-of-ai.png" alt="Elements of AI certificate" class="course-certificate" />
+                <span class="hover-label">Click me</span>
+              </a>
             </p>
           </article>
-          <article class="card">
-            <h3>Certificates</h3>
-            <p class="meta">Microsoft Office Specialist</p>
+          <article class="card certificate-card">
+            <h3>Microsoft Office Specialist</h3>
+            <p class="meta">Microsoft · 2026</p>
             <p>Associate in Microsoft Word, Excel, and PowerPoint</p>
             <div class="badge-grid">
               <div class="badge-card">
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1845ffe2-1f82-4593-aa4f-5d3915ecaf86" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                <a href="https://www.credly.com/badges/1845ffe2-1f82-4593-aa4f-5d3915ecaf86/public_url" target="_blank" rel="noopener" class="badge-link" aria-label="Open Microsoft Word badge">
+                  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1845ffe2-1f82-4593-aa4f-5d3915ecaf86" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                  <span class="hover-label">Click me</span>
+                </a>
               </div>
               <div class="badge-card">
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="618acceb-7d17-47bd-831b-f306ed95bc55" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                <a href="https://www.credly.com/badges/618acceb-7d17-47bd-831b-f306ed95bc55/public_url" target="_blank" rel="noopener" class="badge-link" aria-label="Open Microsoft Excel badge">
+                  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="618acceb-7d17-47bd-831b-f306ed95bc55" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                  <span class="hover-label">Click me</span>
+                </a>
               </div>
               <div class="badge-card">
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="289e03e6-1a19-4018-a588-0deb3da14928" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                <a href="https://www.credly.com/badges/289e03e6-1a19-4018-a588-0deb3da14928/public_url" target="_blank" rel="noopener" class="badge-link" aria-label="Open Microsoft PowerPoint badge">
+                  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="289e03e6-1a19-4018-a588-0deb3da14928" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                  <span class="hover-label">Click me</span>
+                </a>
               </div>
               <div class="badge-card">
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4b82f24c-16f5-41ba-b1f8-f7ebb95e81e4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                <a href="https://www.credly.com/badges/4b82f24c-16f5-41ba-b1f8-f7ebb95e81e4/public_url" target="_blank" rel="noopener" class="badge-link" aria-label="Open Microsoft Office Specialist badge">
+                  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4b82f24c-16f5-41ba-b1f8-f7ebb95e81e4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+                  <span class="hover-label">Click me</span>
+                </a>
               </div>
             </div>
           </article>
@@ -152,9 +159,6 @@
           <span>Communication</span>
           <span>Problem solving</span>
           <span>Planning</span>
-          <span>Python</span>
-          <span>HTML</span>
-          <span>CSS</span>
         </div>
       </section>
     </main>
@@ -163,7 +167,7 @@
       <h2>Let’s connect</h2>
       <p>Email: g.adejugbe@hotmail.com</p>
       <p>Location: Walsall, United Kingdom</p>
-      <p>Credly: https://www.credly.com/users/gabriel-adejugbe</p>
+      <p>Credly: <a href="https://www.credly.com/users/gabriel-adejugbe" target="_blank" rel="noopener">https://www.credly.com/users/gabriel-adejugbe</a></p>
     </footer>
   </body>
 </html>
